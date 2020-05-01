@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  color:red;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("m1.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.login{
+	position: absolute;
+    top: 30%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+input[type=text] {
+
+background-color:lightblue;
+border:2px solid blue;
+border-radius:2px;
+padding:12px 20px;
+margin:8px 0;
+
+
+}
+
+button[type=submit]{
+
+padding:8px 8px;
+margin:8px 0;
+background-color:white;
+text-align:center;
+
+}
